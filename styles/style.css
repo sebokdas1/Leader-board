@@ -24,16 +24,30 @@ hr{
     margin-bottom: 27px;
 }
 /* header style */
-header{
-    background-color: #562EFF;
-    
-   
-}
+
+
 nav{
+    height: 80px;
+    background-color: #562EFF;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 10px;
+    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 190px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    /* align-items: center; */
 }
 nav img{
     height: 51px;
